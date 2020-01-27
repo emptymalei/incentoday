@@ -1,0 +1,18 @@
+{
+    "name": "incentoday",
+    "version": 2,
+    "env": {
+        "MONGODB_URI": "@my-mongodb-uri"
+    },
+    "routes": [{
+            "src": "/",
+            "dest": "api/index.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/users",
+            "dest": "api/users.js",
+            "methods": ["GET"]
+        }
+    ]
+}

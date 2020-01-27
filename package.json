@@ -1,0 +1,22 @@
+{
+  "name": "incentoday",
+  "version": "0.0.1",
+  "description": "incentives of the day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptymalei/incentoday.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emptymalei/incentoday/issues"
+  },
+  "homepage": "https://github.com/emptymalei/incentoday#readme",
+  "dependencies": {
+    "mongodb": "^3.5.2"
+  }
+}
