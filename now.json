@@ -10,6 +10,16 @@
             "methods": ["GET"]
         },
         {
+            "src": "/kitchen",
+            "dest": "api/kitchen.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/kitchen",
+            "dest": "api/kitchenUpdate.js",
+            "methods": ["POST"]
+        },
+        {
             "src": "/users",
             "dest": "api/users.js",
             "methods": ["GET"]
